@@ -27,6 +27,7 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Shutdown = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -49,7 +50,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(203, 0)
+        Me.Button3.Location = New System.Drawing.Point(300, 0)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(91, 27)
         Me.Button3.TabIndex = 2
@@ -58,7 +59,7 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(300, 0)
+        Me.Button4.Location = New System.Drawing.Point(397, 0)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(91, 27)
         Me.Button4.TabIndex = 3
@@ -68,17 +69,27 @@ Partial Class Form1
         'TextBox1
         '
         Me.TextBox1.Enabled = False
-        Me.TextBox1.Location = New System.Drawing.Point(106, 33)
+        Me.TextBox1.Location = New System.Drawing.Point(173, 33)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(162, 20)
         Me.TextBox1.TabIndex = 4
         Me.TextBox1.Text = "Developed by @switch2switch1"
         '
+        'Shutdown
+        '
+        Me.Shutdown.Location = New System.Drawing.Point(203, 0)
+        Me.Shutdown.Name = "Shutdown"
+        Me.Shutdown.Size = New System.Drawing.Size(91, 27)
+        Me.Shutdown.TabIndex = 5
+        Me.Shutdown.Text = "Shutdown"
+        Me.Shutdown.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(401, 53)
+        Me.ClientSize = New System.Drawing.Size(497, 53)
+        Me.Controls.Add(Me.Shutdown)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -96,4 +107,5 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Shutdown As Button
 End Class

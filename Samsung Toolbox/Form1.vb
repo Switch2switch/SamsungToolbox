@@ -13,6 +13,8 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim initadb As New System.Diagnostics.Process()
+        initadb = Process.Start("initadb.bat", "")
 
     End Sub
 
@@ -29,5 +31,10 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Dim proc3 As New System.Diagnostics.Process()
         proc3 = Process.Start("adbrestart.bat", "")
+    End Sub
+
+    Private Sub Shutdown_Click(sender As Object, e As EventArgs) Handles Shutdown.Click
+        Dim proc3 As New System.Diagnostics.Process()
+        proc3 = Process.Start("shutdown.bat", "")
     End Sub
 End Class
