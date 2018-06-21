@@ -1,3 +1,7 @@
-# SamsungToolbox
-An samsung designed program to allow you to boot into certain menus on your device.
-install adb and plug ur device in :)
+# SAMSUNG TOOLBOX
+How to use:
+Go to your samsung device
+Enable USB Debugging in Developer Options.
+Plug in your device to your Windows Computer
+Run the Samsung Toolbox.exe 
+Use the Toolbox!
